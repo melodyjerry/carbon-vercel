@@ -10,34 +10,21 @@ const EmailSubscribe = dynamic(() => import('./EmailSubscribe'), {
 
 const Footer = () => (
   <footer role="contentinfo" className="mt3">
-    <nav className="mt3">
-      <Link href="/about" prefetch={false}>
-        <a className="link" href="/about">
-          about
-        </a>
-      </Link>
-      <a className="link" href="https://github.com/carbon-app/carbon">
-        source
-      </a>
-      <a className="link" href="/terms">
-        terms
-      </a>
-      <a className="link" href="/privacy">
-        privacy
-      </a>
-      <EmailSubscribe />
-      <a className="link" href="/offsets">
-        offsets
-      </a>
-      {/* <span className="new">New</span> */}
-    </nav>
-
     <div className="mt2 mb2">
-      created by{' '}
+      引擎{' '}
       <a className="author-link" href="https://twitter.com/carbon_app">
-        @carbon_app
+        @carbon
       </a>{' '}
-      ¬
+       | 
+      托管{' '}
+      <a className="author-link" href="https://vercel.com">
+        @Vercel
+      </a>{' '}
+       | 
+      工具人{' '}
+      <a className="author-link" href="https://blog.csdn.net/weixin_43438052/article/details/114014822">
+        @Melody Jerry
+      </a>{' '}
     </div>
     <style jsx>
       {`
