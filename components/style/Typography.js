@@ -97,7 +97,8 @@ export default function Typography() {
           margin-top: var(--x4);
         }
         .mb4 {
-          margin-bottom: var(--x4);
+          /* var(--x4) */
+          margin-bottom: 1rem;
         }
         .mt5 {
           margin-top: var(--x5);
