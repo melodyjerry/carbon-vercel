@@ -15,12 +15,12 @@ const Footer = () => (
       <a className="author-link" href="https://twitter.com/carbon_app">
         @carbon
       </a>{' '}
-       | 
+      
       托管{' '}
       <a className="author-link" href="https://vercel.com">
         @Vercel
       </a>{' '}
-       | 
+      
       工具人{' '}
       <a className="author-link" href="https://blog.csdn.net/weixin_43438052/article/details/114014822">
         @Melody Jerry
