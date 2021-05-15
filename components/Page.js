@@ -33,7 +33,7 @@ class Page extends React.Component {
           {`
             .main {
               ${flex ? COLUMN : ''}
-              margin-top: 6rem;
+              margin-top: 0rem;
             }
             .login-button-container {
               position: absolute;
