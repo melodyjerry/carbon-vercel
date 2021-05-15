@@ -9,9 +9,9 @@ const Header = ({ enableHeroText }) => (
       </a>
       {enableHeroText ? (
         <h2 className="mt3">
-          Create and share beautiful images of your source code.
+          快速创建代码图像的工具，让你的代码分享逼格更高、排版更直观
           <br />
-          Start typing or drop a file into the text area to get started.
+          导入你的代码：支持直接拖入代码文件、直接粘贴代码到编辑器
         </h2>
       ) : null}
     </div>
