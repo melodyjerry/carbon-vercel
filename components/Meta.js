@@ -38,7 +38,7 @@ export const StylesheetLink = ({ theme }) => {
 
 export const CodeMirrorLink = () => (
   <Link
-    href={`//cdnjs.cloudflare.com/ajax/libs/codemirror/${CODEMIRROR_VERSION}/codemirror.min.css`}
+    href={`//cdn.jsdelivr.net/npm/codemirror@5.60.0/lib/codemirror.min.css`}
   />
 )
 
@@ -72,7 +72,7 @@ export const MetaLinks = React.memo(() => {
   return (
     <React.Fragment>
       <Link
-        href={`//cdnjs.cloudflare.com/ajax/libs/codemirror/${CODEMIRROR_VERSION}/theme/seti.min.css`}
+        href={`//cdn.jsdelivr.net/npm/codemirror@5.58.3/theme/seti.css`}
       />
       <CodeMirrorLink />
       {LOCAL_STYLESHEETS.map(id => (
